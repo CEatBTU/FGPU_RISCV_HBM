@@ -66,7 +66,7 @@ For more information about how to create an FGPU instance, you can refer to: [CE
 
 > variable FGPU_freq 250
 
-Both values have to match your newly created FGPU-IP configurations. If you are not using HBM, then ignore the FGPU_master parameter
+Both values have to match your newly created FGPU-IP configurations. If you are not using HBM, then set the FGPU_master parameter to 1.
 
 8. modify board/rocket-freq 
 
