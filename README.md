@@ -63,9 +63,10 @@ For more information about how to create an FGPU instance, you can refer to: [CE
 (or the corresponding tcl script for your target board).
 
 > variable FGPU_master 16
+
 > variable FGPU_freq 250
 
-Both values have to match your newly created FGPU-IP configurations.
+Both values have to match your newly created FGPU-IP configurations. If you are not using HBM, then ignore the FGPU_master parameter
 
 8. modify board/rocket-freq 
 
